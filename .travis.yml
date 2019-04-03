@@ -5,8 +5,6 @@ jdk: oraclejdk8
 addons:
   sonarcloud:
     organization: "tijn167-github" # the key of the org you chose at step #3
-      token:
-        secure: ********* # encrypted value of your token
   apt:
     packages:
       - oracle-java8-installer
@@ -15,5 +13,4 @@ before_install:
 install:
 - mvn install
 script:
-- mvn test
 - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
