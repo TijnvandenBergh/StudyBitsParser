@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 public class CallApiAsync {
 
     @Async
-    public void CallService() {
-
+    public void callService() {
+        // Needs to be implemented soon
     }
 }
