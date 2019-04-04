@@ -13,7 +13,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class DataDeserializer {
-    public List<IServiceCall> dataAdapterList;
+    private List<IServiceCall> dataAdapterList;
 
     public void registerParser(IServiceCall call) {
         dataAdapterList.add(call);
