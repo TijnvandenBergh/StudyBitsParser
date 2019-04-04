@@ -15,7 +15,7 @@ import java.util.List;
 @Getter
 @Setter
 public abstract class IServiceCall {
-    public String name;
+    private String name;
     private String url;
     private List<String> endpointList;
 
