@@ -12,6 +12,7 @@ import javax.persistence.Embeddable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Transcript {
+
     @Column
     private String degree;
 
