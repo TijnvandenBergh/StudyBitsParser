@@ -10,12 +10,18 @@ import java.util.List;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
 public class DataDeserializer {
+    private static DataDeserializer instance = new DataDeserializer();
+    private DataDeserializer(){}
     private List<IServiceCall> dataAdapterList;
 
     public void registerParser(IServiceCall call) {
         dataAdapterList.add(call);
     }
+
+    public static DataDeserializer getInstance(){
+        return instance;
+    }
+
 }

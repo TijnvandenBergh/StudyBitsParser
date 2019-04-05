@@ -2,8 +2,10 @@ package nl.quintor.studybits;
 
 import nl.quintor.studybits.entity.Student;
 import nl.quintor.studybits.entity.Transcript;
+import nl.quintor.studybits.entity.University;
 import nl.quintor.studybits.repository.ExchangePositionRepository;
 import nl.quintor.studybits.repository.StudentRepository;
+import nl.quintor.studybits.repository.UniversityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
@@ -22,6 +24,9 @@ public class Seeder {
     @Autowired
     private ExchangePositionRepository exchangePositionRepository;
 
+    @Autowired
+    private UniversityRepository universityRepository;
+
     @EventListener
     public void seed(ContextRefreshedEvent event) {
         seed();
@@ -37,6 +42,12 @@ public class Seeder {
             student.setStudentDid(null);
             student.setTranscript(new Transcript("Bachelor of Arts, Marketing", "enrolled", "8", false));
             studentRepository.saveAndFlush(student);
+            University university = new University();
+            university.setId(01);
+            university.setUniversityName("Universiteit van Gent");
+            university.setUniversitySystem("Progress");
+            universityRepository.saveAndFlush(university);
+
         }
     }
 
