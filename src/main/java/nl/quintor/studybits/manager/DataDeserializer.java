@@ -6,22 +6,26 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import nl.quintor.studybits.business.IServiceCall;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Getter
 @Setter
-@AllArgsConstructor
 public class DataDeserializer {
-    private static DataDeserializer instance = new DataDeserializer();
+    private static DataDeserializer uniqInstance;
+    private List<IServiceCall> dataAdapterList = new ArrayList<IServiceCall>();
+
     private DataDeserializer(){}
-    private List<IServiceCall> dataAdapterList;
+
 
     public void registerParser(IServiceCall call) {
         dataAdapterList.add(call);
     }
 
     public static DataDeserializer getInstance(){
-        return instance;
+        if (uniqInstance == null ) {
+            uniqInstance = new DataDeserializer();
+        }
+        return uniqInstance;
     }
-
 }

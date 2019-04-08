@@ -10,7 +10,6 @@ import nl.quintor.studybits.entity.Transcript;
 
 import java.util.List;
 
-@AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
@@ -18,6 +17,12 @@ public abstract class IServiceCall {
     private String name;
     private String url;
     private List<String> endpointList;
+
+    public IServiceCall(String name, String url, List<String> endpointList) {
+        this.name = name;
+        this.url = url;
+        this.endpointList = endpointList;
+    }
 
     public abstract Student parseStudent(String data);
     public abstract Transcript parseTranscript(String data);

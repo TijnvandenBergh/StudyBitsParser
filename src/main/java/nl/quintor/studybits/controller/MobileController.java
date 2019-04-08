@@ -14,13 +14,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import java.io.Console;
 import java.net.MalformedURLException;
 import java.net.URL;
 
 @RestController
 public class MobileController {
     protected static final Logger logger = LogManager.getLogger();
-    DataDeserializer dataDeserializer = DataDeserializer.getInstance();
 
     @Autowired
     private UniversityRepository universityRepository;
@@ -28,11 +28,14 @@ public class MobileController {
     @GetMapping(value = "/{university}/students/{id}")
     public String getStudent(@PathVariable("university") String university, @PathVariable("id") int id) throws MalformedURLException {
         University studentUniversity = universityRepository.findByName(university);
-
-//        for(IServiceCall serviceCall : dataDeserializer.getDataAdapterList()) {
-//            if (serviceCall.getName() == )
-//
-//        }
+        String serviceCallName = studentUniversity.getUniversitySystem() + "ServiceCall";
+        logger.info(serviceCallName.toString());
+        for(IServiceCall serviceCall : DataDeserializer.getInstance().getDataAdapterList()) {
+            logger.info(serviceCall.getName());
+            if (serviceCall.getName() ==  university ) {
+                logger.info("Reached");
+            }
+        }
         return studentUniversity.getUniversitySystem();
     }
 }
