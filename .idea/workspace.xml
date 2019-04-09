@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b6a28ba-4fd7-4866-aa79-8d85f7a22530" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/OsirisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/manager/ServiceCallFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/FactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/MobileControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_12_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/StudybitsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/StudybitsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/IServiceCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressServiceCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/manager/DataDeserializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studybits.iml" beforeDir="false" afterPath="$PROJECT_DIR$/studybits.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/StudybitsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/StudybitsApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/business/IServiceCall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/business/ProgressServiceCall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/controller/MobileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/controller/MobileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/entity/University.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/entity/University.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/manager/DataDeserializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/FactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+            <state relative-caret-position="469">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -298,6 +272,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="studybits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyBitsParser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studybits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyBitsParser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="studybits" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -312,7 +301,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554801263718" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554801596805" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -338,7 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StudybitsApplication">
+  <component name="RunManager" selected="JUnit.nl.quintor.studybits in studybits">
     <configuration name="FactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studybits" />
       <extension name="coverage">
@@ -350,22 +339,6 @@
       <option name="PACKAGE_NAME" value="nl.quintor.studybits.IntegrationTests" />
       <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.IntegrationTests.FactoryTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactoryTest.testCreateOsirisService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studybits" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nl.quintor.studybits.IntegrationTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nl.quintor.studybits.IntegrationTests" />
-      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.IntegrationTests.FactoryTest" />
-      <option name="METHOD_NAME" value="testCreateOsirisService" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -418,6 +391,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="nl.quintor.studybits in studybits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studybits" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.quintor.studybits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.quintor.studybits" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudybitsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="studybits" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="nl.quintor.studybits.StudybitsApplication" />
@@ -427,11 +414,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.nl.quintor.studybits in studybits" />
         <item itemvalue="JUnit.FactoryTest.testCreateWhenStringIsNotCorrect" />
         <item itemvalue="JUnit.FactoryTest.testCreateWhenStringIsNull" />
         <item itemvalue="JUnit.FactoryTest.testCreateProgressServiceUnSuccessFull" />
         <item itemvalue="JUnit.FactoryTest" />
-        <item itemvalue="JUnit.FactoryTest.testCreateOsirisService" />
       </list>
     </recent_temporary>
   </component>
@@ -449,7 +436,7 @@
       <workItem from="1554359931466" duration="18706000" />
       <workItem from="1554448043414" duration="10298000" />
       <workItem from="1554710186705" duration="20766000" />
-      <workItem from="1554793276601" duration="7279000" />
+      <workItem from="1554793276601" duration="7538000" />
     </task>
     <servers />
   </component>
@@ -486,7 +473,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58654000" />
+    <option name="totallyTimeSpent" value="58913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -499,9 +486,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14072494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14072494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -511,7 +497,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969603" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -759,8 +745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/FactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+        <state relative-caret-position="469">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
