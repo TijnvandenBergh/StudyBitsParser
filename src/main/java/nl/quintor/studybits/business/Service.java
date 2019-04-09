@@ -13,12 +13,12 @@ import java.util.List;
 @NoArgsConstructor
 @Getter
 @Setter
-public abstract class IServiceCall {
+public abstract class Service {
     private String name;
     private String url;
     private List<String> endpointList;
 
-    public IServiceCall(String name, String url, List<String> endpointList) {
+    public Service(String name, String url, List<String> endpointList) {
         this.name = name;
         this.url = url;
         this.endpointList = endpointList;

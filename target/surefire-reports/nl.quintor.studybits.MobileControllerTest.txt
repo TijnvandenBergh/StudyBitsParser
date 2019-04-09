@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: nl.quintor.studybits.MobileControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.381 s <<< FAILURE! - in nl.quintor.studybits.MobileControllerTest
+testGetStudent(nl.quintor.studybits.MobileControllerTest)  Time elapsed: 4.706 s  <<< ERROR!
+java.lang.IllegalArgumentException: Not enough variable values available to expand 'university'
+	at nl.quintor.studybits.MobileControllerTest.testGetStudent(MobileControllerTest.java:30)
+

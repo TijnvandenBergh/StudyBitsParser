@@ -4,6 +4,7 @@ package nl.quintor.studybits.entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
 
 import javax.persistence.*;
 
@@ -21,6 +22,7 @@ public class University {
     private String universityName;
 
     @Column
+    @Value("${studybits.systemname}")
     private String universitySystem;
 
 }

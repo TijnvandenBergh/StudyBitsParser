@@ -1,13 +1,10 @@
 nl\quintor\studybits\config\SecurityConfig.class
 nl\quintor\studybits\business\CallApiAsync.class
 nl\quintor\studybits\entity\Transcript.class
-nl\quintor\studybits\business\IServiceCall.class
-nl\quintor\studybits\business\ProgressServiceCall.class
 nl\quintor\studybits\repository\ExchangePositionRepository.class
 nl\quintor\studybits\StudybitsApplication.class
 nl\quintor\studybits\Seeder.class
 nl\quintor\studybits\entity\Student.class
 nl\quintor\studybits\repository\StudentRepository.class
-nl\quintor\studybits\manager\DataDeserializer.class
 nl\quintor\studybits\entity\ExchangePosition.class
 nl\quintor\studybits\controller\MobileController.class
