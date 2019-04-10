@@ -30,7 +30,7 @@ public class ServiceCallFactory {
     public ProgressService ProgressCreateService() {
         List<String> endpointsProgress = new ArrayList<String>();
         endpointsProgress.add("/students");
-        return new ProgressService("ProgressService", "https://my-json-server.typicode.com/tijn167/FakeJsonApi", endpointsProgress);
+        return new ProgressService("ProgressService", "https://my-json-server.typicode.com/tijn167/FakeJsonApi");
     }
 
 }

@@ -1,33 +1,68 @@
 package nl.quintor.studybits.business;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import nl.quintor.studybits.entity.ExchangePosition;
 import nl.quintor.studybits.entity.Student;
 import nl.quintor.studybits.entity.Transcript;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 
-import java.util.List;
+import java.io.IOException;
+
 
 @Getter
 @Setter
 public class ProgressService extends Service {
+    protected static final Logger logger = LogManager.getLogger();
 
-    public ProgressService(String name, String url, List<String> endpointList) {
-        super(name, url, endpointList);
+    private static final String URL_PROGRESS = "https://my-json-server.typicode.com/tijn167/FakeJsonApi";
+    private static final String STUDENT_BY_ID_ENDPOINT = "/students/{id}";
+
+    ApiCallService apiCallService = new ApiCallService();
+
+    public ProgressService(String name, String url) {
+        super(name, url);
+    }
+
+
+    public String callApi(int id, String url, String endpoint) throws IOException {
+        String data = apiCallService.callService(id, url, endpoint);
+        logger.info(data);
+        return "Ewa";
     }
 
     @Override
-    public Student parseStudent(String data) {
+    public String callApi() {
         return null;
     }
 
     @Override
-    public Transcript parseTranscript(String data) {
+    public Student parseStudent(int id) {
+        logger.info(id);
+        try {
+            callApi(id, URL_PROGRESS, STUDENT_BY_ID_ENDPOINT);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        //Make student so app doesnt crash
+        Student student = new Student();
+        return student;
+    }
+
+    @Override
+    public Transcript parseTranscript() {
         return null;
     }
 
     @Override
-    public ExchangePosition parseExchangePosition(String data) {
+    public ExchangePosition parseExchangePosition() {
         return null;
     }
+
 }

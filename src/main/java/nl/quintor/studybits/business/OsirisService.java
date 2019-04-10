@@ -9,20 +9,32 @@ import java.util.List;
 public class OsirisService extends Service {
 
     public OsirisService(String name, String url, List<String> endpointList) {
-        super(name, url, endpointList);
+        super(name, url);
     }
-    @Override
-    public Student parseStudent(String data) {
+
+
+    public String callApi(String url) {
         return null;
     }
 
     @Override
-    public Transcript parseTranscript(String data) {
+    public String callApi() {
         return null;
     }
 
     @Override
-    public ExchangePosition parseExchangePosition(String data) {
+    public Student parseStudent(int id) {
         return null;
     }
+
+    @Override
+    public Transcript parseTranscript() {
+        return null;
+    }
+
+    @Override
+    public ExchangePosition parseExchangePosition() {
+        return null;
+    }
+
 }

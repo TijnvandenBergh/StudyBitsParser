@@ -28,9 +28,8 @@ public class MobileController {
     @GetMapping(value = "/{university}/students/{id}")
     public String getStudent(@PathVariable("university") String university, @PathVariable("id") int id) throws MalformedURLException {
         University studentUniversity = universityRepository.findByName(university);
-        String serviceCallName = studentUniversity.getUniversitySystem();
         Service desiredService = serviceCallFactory.getService(studentUniversity.getUniversitySystem());
-        logger.info(desiredService.getName());
+        desiredService.parseStudent(id);
         return studentUniversity.getUniversitySystem();
     }
 }
