@@ -8,7 +8,7 @@ import java.util.List;
 
 public class OsirisService extends Service {
 
-    public OsirisService(String name, String url, List<String> endpointList) {
+    public OsirisService(String name, String url) {
         super(name, url);
     }
 

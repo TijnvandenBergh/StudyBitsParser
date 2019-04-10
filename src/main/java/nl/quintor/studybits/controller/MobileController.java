@@ -11,8 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-
-import javax.security.auth.login.Configuration;
 import java.net.MalformedURLException;
 
 @RestController
@@ -26,7 +24,7 @@ public class MobileController {
     ServiceCallFactory serviceCallFactory;
 
     @GetMapping(value = "/{university}/students/{id}")
-    public String getStudent(@PathVariable("university") String university, @PathVariable("id") int id) throws MalformedURLException {
+    public String getStudent(@PathVariable("university") String university, @PathVariable("id") int id) {
         University studentUniversity = universityRepository.findByName(university);
         Service desiredService = serviceCallFactory.getService(studentUniversity.getUniversitySystem());
         desiredService.parseStudent(id);

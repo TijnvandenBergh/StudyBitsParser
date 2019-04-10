@@ -1,8 +1,6 @@
 package nl.quintor.studybits.manager;
 
 import nl.quintor.studybits.business.*;
-import org.springframework.context.annotation.Bean;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,22 +11,22 @@ public class ServiceCallFactory {
             return null;
         }
         if(service.equalsIgnoreCase("Progress")) {
-            return ProgressCreateService();
+            return progressCreateService();
         }
         if(service.equalsIgnoreCase("Osiris")) {
-            return OsirisCreateService();
+            return osirisCreateService();
         }
         return null;
     }
 
-    public OsirisService OsirisCreateService() {
+    public OsirisService osirisCreateService() {
         List<String> endpointsOsiris = new ArrayList<>();
         endpointsOsiris.add("/students");
-        return new OsirisService("OsirisService", "https://my-json-server.typicode.com/tijn167/FakeJsonApi", endpointsOsiris);
+        return new OsirisService("OsirisService", "https://my-json-server.typicode.com/tijn167/FakeJsonApi");
     }
 
-    public ProgressService ProgressCreateService() {
-        List<String> endpointsProgress = new ArrayList<String>();
+    public ProgressService progressCreateService() {
+        List<String> endpointsProgress = new ArrayList<>();
         endpointsProgress.add("/students");
         return new ProgressService("ProgressService", "https://my-json-server.typicode.com/tijn167/FakeJsonApi");
     }

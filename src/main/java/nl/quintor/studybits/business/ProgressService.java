@@ -1,6 +1,6 @@
 package nl.quintor.studybits.business;
 
-import lombok.AllArgsConstructor;
+
 import lombok.Getter;
 import lombok.Setter;
 import nl.quintor.studybits.entity.ExchangePosition;
@@ -8,10 +8,6 @@ import nl.quintor.studybits.entity.Student;
 import nl.quintor.studybits.entity.Transcript;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
-
 import java.io.IOException;
 
 
@@ -47,7 +43,7 @@ public class ProgressService extends Service {
         try {
             callApi(id, URL_PROGRESS, STUDENT_BY_ID_ENDPOINT);
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.info(e.getMessage());
         }
 
         //Make student so app doesnt crash
