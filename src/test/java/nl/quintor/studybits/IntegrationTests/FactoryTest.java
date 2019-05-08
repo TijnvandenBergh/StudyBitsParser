@@ -1,8 +1,8 @@
 package nl.quintor.studybits.IntegrationTests;
 
-import nl.quintor.studybits.business.OsirisService;
-import nl.quintor.studybits.business.ProgressService;
-import nl.quintor.studybits.business.Service;
+import nl.quintor.studybits.business.OsirisParser;
+import nl.quintor.studybits.business.Parser;
+import nl.quintor.studybits.business.ProgressParser;
 import nl.quintor.studybits.manager.ServiceCallFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,31 +24,31 @@ public class FactoryTest {
 
     @Test
     public void testCreateOsirisServiceSuccesFull() {
-        Service serv = serviceCallFactory.getService("Osiris");
-        assertThat(serv, instanceOf(OsirisService.class));
+        Parser serv = serviceCallFactory.getService("Osiris");
+        assertThat(serv, instanceOf(OsirisParser.class));
     }
 
     @Test
     public void testCreateProgressServiceSuccesFull()  {
-        Service serv = serviceCallFactory.getService("Progress");
-        assertThat(serv, instanceOf(ProgressService.class));
+        Parser serv = serviceCallFactory.getService("Progress");
+        assertThat(serv, instanceOf(ProgressParser.class));
     }
 
     @Test
     public void testCreateProgressServiceUnSuccessFull() {
-        Service serv = serviceCallFactory.getService("Progress");
-        assertThat(serv, is(not(instanceOf(OsirisService.class))));
+        Parser serv = serviceCallFactory.getService("Progress");
+        assertThat(serv, is(not(instanceOf(OsirisParser.class))));
     }
 
     @Test
     public void testCreateWhenStringIsNotCorrect() {
-        Service serv = serviceCallFactory.getService("0$iri$");
+        Parser serv = serviceCallFactory.getService("0$iri$");
         assertThat(serv, is(nullValue()));
     }
 
     @Test
     public void testCreateWhenStringIsNull() {
-        Service serv = serviceCallFactory.getService("");
+        Parser serv = serviceCallFactory.getService("");
         assertThat(serv,  is(nullValue()));
     }
 }

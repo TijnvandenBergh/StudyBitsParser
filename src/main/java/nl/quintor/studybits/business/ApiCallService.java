@@ -3,7 +3,10 @@ package nl.quintor.studybits.business;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.http.HttpStatus;
 import org.springframework.scheduling.annotation.Async;
+import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.HttpServerErrorException;
 import org.springframework.web.client.RestTemplate;
 
 @org.springframework.stereotype.Service
@@ -16,6 +19,14 @@ public class ApiCallService {
         logger.info(fullUrl);
         String idVar = Integer.toString(id);
         RestTemplate restTemplate = new RestTemplate();
-        return restTemplate.getForObject(fullUrl, String.class, idVar );
+        try {
+            return restTemplate.getForObject(fullUrl, String.class, idVar);
+        }
+        catch (HttpClientErrorException | HttpServerErrorException httpClientOrServerExc) {
+            if (HttpStatus.NOT_FOUND.equals(httpClientOrServerExc.getStatusCode())) {
+                return "Student niet gevonden";
+            }
+            return "Overige foutmelding";
+        }
     }
 }

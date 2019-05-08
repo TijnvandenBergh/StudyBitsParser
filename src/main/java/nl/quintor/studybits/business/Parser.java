@@ -10,11 +10,11 @@ import nl.quintor.studybits.entity.Transcript;
 @NoArgsConstructor
 @Getter
 @Setter
-public abstract class Service {
+public abstract class Parser {
     private String name;
     private String url;
 
-    public Service(String name, String url) {
+    public Parser(String name, String url) {
         this.name = name;
         this.url = url;
     }

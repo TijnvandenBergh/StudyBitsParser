@@ -2,11 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b6a28ba-4fd7-4866-aa79-8d85f7a22530" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/UnitTests/ApiCallServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/UnitTests/ProgressParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ApiCallService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ApiCallService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/OsirisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/OsirisService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/OsirisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/OsirisParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/manager/ServiceCallFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/manager/ServiceCallFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/FactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studybits.iml" beforeDir="false" afterPath="$PROJECT_DIR$/studybits.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/business/OsirisService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/business/ProgressService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/business/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/controller/MobileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/controller/MobileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/manager/ServiceCallFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/manager/ServiceCallFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nl/quintor/studybits/IntegrationTests/FactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/nl/quintor/studybits/IntegrationTests/FactoryTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,75 +48,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/config/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1182#1183#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
-                <element signature="e#1498#1499#0" expanded="true" />
-                <element signature="e#1525#1526#0" expanded="true" />
-                <element signature="e#1594#1595#0" expanded="true" />
-                <element signature="e#1621#1622#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/StudybitsApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/manager/ServiceCallFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="204">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ApiCallService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,27 +71,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/OsirisService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="459">
+              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#2057#2058#0" expanded="true" />
+                <element signature="e#2153#2154#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/University.java">
+        <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/manager/ServiceCallFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/OsirisParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="21" selection-end-column="34" />
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,13 +129,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Student.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/UnitTests/ApiCallServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+            <state relative-caret-position="357">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvnw">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/UnitTests/ProgressParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -182,23 +194,27 @@
         <option value="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/MobileControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/FactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/MobileControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Endpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/StudybitsApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ApiCallService.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/OsirisService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/manager/ServiceCallFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/Parser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/UnitTests/ProgressParserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/UnitTests/ApiCallServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ApiCallService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressParser.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-31" />
-    <option name="y" value="-23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-3" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -208,8 +224,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,6 +309,15 @@
               <item name="StudyBitsParser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="studybits" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studybits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyBitsParser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,6 +325,39 @@
               <item name="StudyBitsParser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studybits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyBitsParser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studybits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyBitsParser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="studybits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studybits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyBitsParser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="studybits" type="462c0819:PsiDirectoryNode" />
+              <item name="IntegrationTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studybits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyBitsParser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="studybits" type="462c0819:PsiDirectoryNode" />
+              <item name="UnitTests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +373,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554907561517" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557305340740" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -350,64 +408,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryTest.testCreateProgressServiceUnSuccessFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiCallServiceTest.notExistingStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studybits" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nl.quintor.studybits.IntegrationTests.*" />
+          <option name="PATTERN" value="nl.quintor.studybits.UnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nl.quintor.studybits.IntegrationTests" />
-      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.IntegrationTests.FactoryTest" />
-      <option name="METHOD_NAME" value="testCreateProgressServiceUnSuccessFull" />
+      <option name="PACKAGE_NAME" value="nl.quintor.studybits.UnitTests" />
+      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.UnitTests.ApiCallServiceTest" />
+      <option name="METHOD_NAME" value="notExistingStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryTest.testCreateWhenStringIsNotCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiCallServiceTest.studentWithRightIdReturnsJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studybits" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nl.quintor.studybits.IntegrationTests.*" />
+          <option name="PATTERN" value="nl.quintor.studybits.UnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nl.quintor.studybits.IntegrationTests" />
-      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.IntegrationTests.FactoryTest" />
-      <option name="METHOD_NAME" value="testCreateWhenStringIsNotCorrect" />
+      <option name="PACKAGE_NAME" value="nl.quintor.studybits.UnitTests" />
+      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.UnitTests.ApiCallServiceTest" />
+      <option name="METHOD_NAME" value="studentWithRightIdReturnsJson" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryTest.testCreateWhenStringIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProgressParserTest.splitFirstNameCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studybits" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nl.quintor.studybits.IntegrationTests.*" />
+          <option name="PATTERN" value="nl.quintor.studybits.UnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nl.quintor.studybits.IntegrationTests" />
-      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.IntegrationTests.FactoryTest" />
-      <option name="METHOD_NAME" value="testCreateWhenStringIsNull" />
+      <option name="PACKAGE_NAME" value="nl.quintor.studybits.UnitTests" />
+      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.UnitTests.ProgressParserTest" />
+      <option name="METHOD_NAME" value="splitFirstNameCorrectly" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nl.quintor.studybits in studybits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProgressParserTest.splitFirstNameWithDash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studybits" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nl.quintor.studybits.*" />
+          <option name="PATTERN" value="nl.quintor.studybits.UnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nl.quintor.studybits" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="nl.quintor.studybits.UnitTests" />
+      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.UnitTests.ProgressParserTest" />
+      <option name="METHOD_NAME" value="splitFirstNameWithDash" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -421,11 +481,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiCallServiceTest.notExistingStudent" />
+        <item itemvalue="JUnit.ApiCallServiceTest.studentWithRightIdReturnsJson" />
+        <item itemvalue="JUnit.ProgressParserTest.splitFirstNameWithDash" />
+        <item itemvalue="JUnit.ProgressParserTest.splitFirstNameCorrectly" />
         <item itemvalue="JUnit.All in studybits" />
-        <item itemvalue="JUnit.nl.quintor.studybits in studybits" />
-        <item itemvalue="JUnit.FactoryTest.testCreateWhenStringIsNotCorrect" />
-        <item itemvalue="JUnit.FactoryTest.testCreateWhenStringIsNull" />
-        <item itemvalue="JUnit.FactoryTest.testCreateProgressServiceUnSuccessFull" />
       </list>
     </recent_temporary>
   </component>
@@ -444,29 +504,16 @@
       <workItem from="1554448043414" duration="10298000" />
       <workItem from="1554710186705" duration="20766000" />
       <workItem from="1554793276601" duration="15147000" />
-      <workItem from="1554879863782" duration="15704000" />
+      <workItem from="1554879863782" duration="16173000" />
+      <workItem from="1554966878113" duration="10988000" />
+      <workItem from="1555052568578" duration="5268000" />
+      <workItem from="1555327490094" duration="2022000" />
+      <workItem from="1556614374795" duration="1537000" />
+      <workItem from="1557299290710" duration="5448000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FactoryTest_testCreateWhenStringIsNull - 2019.04.09 at 11h 04m 44s.xml">
-      <configuration name="FactoryTest.testCreateWhenStringIsNull" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FactoryTest_testCreateWhenStringIsNull - 2019.04.09 at 11h 05m 10s.xml">
-      <configuration name="FactoryTest.testCreateWhenStringIsNull" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FactoryTest_testCreateWhenStringIsNull - 2019.04.09 at 11h 06m 11s.xml">
-      <configuration name="FactoryTest.testCreateWhenStringIsNull" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FactoryTest_testCreateWhenStringIsNotCorrect - 2019.04.09 at 11h 11m 52s.xml">
-      <configuration name="FactoryTest.testCreateWhenStringIsNotCorrect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FactoryTest_testCreateWhenStringIsNotCorrect - 2019.04.09 at 11h 12m 48s.xml">
-      <configuration name="FactoryTest.testCreateWhenStringIsNotCorrect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="nl_quintor_studybits_in_studybits - 2019.04.09 at 11h 18m 05s.xml">
-      <configuration name="nl.quintor.studybits in studybits" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="nl_quintor_studybits_in_studybits - 2019.04.09 at 11h 20m 04s.xml">
       <configuration name="nl.quintor.studybits in studybits" configurationId="JUnit" />
     </history-entry>
@@ -479,9 +526,27 @@
     <history-entry file="All_in_studybits - 2019.04.10 at 16h 45m 15s.xml">
       <configuration name="All in studybits" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProgressParserTest_splitFirstNameCorrectly - 2019.05.08 at 09h 25m 48s.xml">
+      <configuration name="ProgressParserTest.splitFirstNameCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProgressParserTest_splitFirstNameWithDash - 2019.05.08 at 09h 26m 47s.xml">
+      <configuration name="ProgressParserTest.splitFirstNameWithDash" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiCallServiceTest_studentWithRightIdReturnsJson - 2019.05.08 at 10h 16m 21s.xml">
+      <configuration name="ApiCallServiceTest.studentWithRightIdReturnsJson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiCallServiceTest_studentWithRightIdReturnsJson - 2019.05.08 at 10h 19m 38s.xml">
+      <configuration name="ApiCallServiceTest.studentWithRightIdReturnsJson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiCallServiceTest_notExistingStudent - 2019.05.08 at 10h 21m 01s.xml">
+      <configuration name="ApiCallServiceTest.notExistingStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiCallServiceTest_notExistingStudent - 2019.05.08 at 10h 44m 37s.xml">
+      <configuration name="ApiCallServiceTest.notExistingStudent" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82226000" />
+    <option name="totallyTimeSpent" value="107958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,10 +558,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-3" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14232409" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -505,19 +569,19 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32969603" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32969603" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -534,17 +598,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressParser.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mvnw">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -552,26 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Transcript.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/ExchangePosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -614,16 +660,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/IService.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/StudybitsApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -631,29 +667,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Endpoint.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/StudybitsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/FactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="85">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Endpoint.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/MobileControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="333">
           <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/StudybitsApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/FactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/ExchangePosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -662,48 +720,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/Seeder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+        <state relative-caret-position="136">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/University.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/StudybitsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="401">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -713,46 +741,103 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/University.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="272">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#1525#1526#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/OsirisService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Transcript.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/manager/ServiceCallFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/OsirisParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/UnitTests/ProgressParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/UnitTests/ApiCallServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -761,20 +846,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ApiCallService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/manager/ServiceCallFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="459">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2057#2058#0" expanded="true" />
+            <element signature="e#2153#2154#0" expanded="true" />
           </folding>
         </state>
       </provider>

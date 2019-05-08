@@ -4,11 +4,9 @@ import nl.quintor.studybits.entity.ExchangePosition;
 import nl.quintor.studybits.entity.Student;
 import nl.quintor.studybits.entity.Transcript;
 
-import java.util.List;
+public class OsirisParser extends Parser {
 
-public class OsirisService extends Service {
-
-    public OsirisService(String name, String url) {
+    public OsirisParser(String name, String url) {
         super(name, url);
     }
 

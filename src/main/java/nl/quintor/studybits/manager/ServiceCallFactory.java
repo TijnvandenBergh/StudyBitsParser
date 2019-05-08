@@ -6,7 +6,7 @@ import java.util.List;
 
 @org.springframework.stereotype.Service
 public class ServiceCallFactory {
-    public Service getService(String service) {
+    public Parser getService(String service) {
         if(service == null) {
             return null;
         }
@@ -19,16 +19,16 @@ public class ServiceCallFactory {
         return null;
     }
 
-    public OsirisService osirisCreateService() {
+    public OsirisParser osirisCreateService() {
         List<String> endpointsOsiris = new ArrayList<>();
         endpointsOsiris.add("/students");
-        return new OsirisService("OsirisService", "https://my-json-server.typicode.com/tijn167/FakeJsonApi");
+        return new OsirisParser("OsirisParser", "https://my-json-server.typicode.com/tijn167/FakeJsonApi");
     }
 
-    public ProgressService progressCreateService() {
+    public ProgressParser progressCreateService() {
         List<String> endpointsProgress = new ArrayList<>();
         endpointsProgress.add("/students");
-        return new ProgressService("ProgressService", "https://my-json-server.typicode.com/tijn167/FakeJsonApi");
+        return new ProgressParser("ProgressParser", "https://my-json-server.typicode.com/tijn167/FakeJsonApi");
     }
 
 }
