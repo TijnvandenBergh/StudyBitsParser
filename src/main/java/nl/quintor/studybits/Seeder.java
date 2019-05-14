@@ -41,12 +41,15 @@ public class Seeder {
             student.setPassword(bCryptPasswordEncoder.encode("test1234"));
             student.setStudentDid(null);
             student.setTranscript(new Transcript("Bachelor of Arts, Marketing", "enrolled", "8", false));
-            studentRepository.saveAndFlush(student);
+            studentRepository.save(student);
             University university = new University();
-            university.setId(01);
             university.setUniversityName("Universiteit van Gent");
             university.setUniversitySystem("Progress");
-            universityRepository.saveAndFlush(university);
+            universityRepository.save(university);
+            University universityAvans = new University();
+            universityAvans.setUniversityName("Avans university of applied sciences");
+            universityAvans.setUniversitySystem("Osiris");
+            universityRepository.save(universityAvans);
 
         }
     }

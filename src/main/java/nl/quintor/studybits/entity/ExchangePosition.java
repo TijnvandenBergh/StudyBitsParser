@@ -12,7 +12,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class ExchangePosition {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private long id;
 
     @Column

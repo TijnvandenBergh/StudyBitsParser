@@ -18,7 +18,7 @@ public abstract class Parser {
         this.name = name;
         this.url = url;
     }
-    public abstract String callApi();
+    public abstract String callDataSource(int id, String url, String endpoint);
     public abstract Student parseStudent(int id);
     public abstract Transcript parseTranscript();
     public abstract ExchangePosition parseExchangePosition();
