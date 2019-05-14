@@ -16,7 +16,7 @@ import java.util.List;
 public class UniversityController {
 
     @Autowired
-    UniversityRepository universityRepository;
+    private UniversityRepository universityRepository;
 
     @GetMapping(value = "/universities")
     public String getAllUniversities() {

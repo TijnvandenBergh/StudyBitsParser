@@ -2,31 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b6a28ba-4fd7-4866-aa79-8d85f7a22530" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/DbCallService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/UniversityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/UniversityControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/Seeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/Seeder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/OsirisParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/OsirisParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/ExchangePosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/ExchangePosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/UnitTests/ApiCallServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/UnitTests/ApiCallServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/UnitTests/ProgressParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/UnitTests/OsirisParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studybits.iml" beforeDir="false" afterPath="$PROJECT_DIR$/studybits.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/Seeder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/Seeder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/business/OsirisParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/business/OsirisParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/business/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/business/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/business/ProgressParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/business/ProgressParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/controller/MobileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/controller/MobileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/entity/ExchangePosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/entity/ExchangePosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/entity/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/entity/University.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/entity/University.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/nl/quintor/studybits/UnitTests/ApiCallServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/nl/quintor/studybits/UnitTests/ApiCallServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/nl/quintor/studybits/UnitTests/ProgressParserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/UniversityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/UniversityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/repository/UniversityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/repository/UniversityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/MobileControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/MobileControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/controller/UniversityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/controller/UniversityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/repository/UniversityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nl/quintor/studybits/repository/UniversityRepository.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,26 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/OsirisParser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/UniversityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2052#2053#0" expanded="true" />
-                <element signature="e#2079#2080#0" expanded="true" />
-                <element signature="e#2148#2149#0" expanded="true" />
-                <element signature="e#2175#2176#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/Seeder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,44 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Student.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/MobileControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/ExchangePosition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Transcript.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="248">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/University.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="241">
               <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,11 +58,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/UniversityControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="27" column="56" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="56" />
+            <state relative-caret-position="282">
+              <caret line="42" column="67" lean-forward="true" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#1346#1347#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/FactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,11 +84,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/UniversityController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/StudybitsApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            <state relative-caret-position="323">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/Seeder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="622">
+              <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,8 +111,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/repository/UniversityRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/repository/StudentRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="27" column="56" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/StudybitsApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Transcript.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/repository/StudentRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/repository/UniversityRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/manager/DataDeserializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressServiceCall.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ServiceCall.java" />
@@ -195,9 +179,6 @@
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressServiceFac.java" />
         <option value="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/FactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/MobileControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/FactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/MobileControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Endpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/Service.java" />
@@ -218,7 +199,12 @@
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/University.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Student.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/FactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/UniversityController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/quintor/studybits/repository/UniversityRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/UniversityControllerTest.java" />
       </list>
     </option>
   </component>
@@ -358,15 +344,6 @@
               <item name="studybits" type="462c0819:PsiDirectoryNode" />
               <item name="IntegrationTests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="studybits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudyBitsParser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="studybits" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitTests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -383,7 +360,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557831060472" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557838523981" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -395,6 +372,12 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="nl.quintor.studybits" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gebruiker\Documents\Development\StudyBitsParser\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gebruiker\Documents\Development\StudyBitsParser\src\test\java\nl\quintor\studybits\IntegrationTests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -409,83 +392,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StudybitsApplication">
-    <configuration name="ApiCallServiceTest.notExistingStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UniversityControllerTest">
+    <configuration name="FactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studybits" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nl.quintor.studybits.UnitTests.*" />
+          <option name="PATTERN" value="nl.quintor.studybits.IntegrationTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nl.quintor.studybits.UnitTests" />
-      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.UnitTests.ApiCallServiceTest" />
-      <option name="METHOD_NAME" value="notExistingStudent" />
+      <option name="PACKAGE_NAME" value="nl.quintor.studybits.IntegrationTests" />
+      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.IntegrationTests.FactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniversityControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studybits" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.quintor.studybits.IntegrationTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.quintor.studybits.IntegrationTests" />
+      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.IntegrationTests.UniversityControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniversityControllerTest.testReturnAllUniversities" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studybits" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.quintor.studybits.IntegrationTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.quintor.studybits.IntegrationTests" />
+      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.IntegrationTests.UniversityControllerTest" />
+      <option name="METHOD_NAME" value="testReturnAllUniversities" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiCallServiceTest.studentWithRightIdReturnsJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UniversityControllerTest.testReturnAllUniversitiesWrongUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studybits" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nl.quintor.studybits.UnitTests.*" />
+          <option name="PATTERN" value="nl.quintor.studybits.IntegrationTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nl.quintor.studybits.UnitTests" />
-      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.UnitTests.ApiCallServiceTest" />
-      <option name="METHOD_NAME" value="studentWithRightIdReturnsJson" />
+      <option name="PACKAGE_NAME" value="nl.quintor.studybits.IntegrationTests" />
+      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.IntegrationTests.UniversityControllerTest" />
+      <option name="METHOD_NAME" value="testReturnAllUniversitiesWrongUrl" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OsirisParserTest.splitFirstNameCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="nl.quintor.studybits.IntegrationTests in studybits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studybits" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nl.quintor.studybits.UnitTests.*" />
+          <option name="PATTERN" value="nl.quintor.studybits.IntegrationTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nl.quintor.studybits.UnitTests" />
-      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.UnitTests.OsirisParserTest" />
-      <option name="METHOD_NAME" value="splitFirstNameCorrectly" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OsirisParserTest.splitFirstNameWithDash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studybits" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nl.quintor.studybits.UnitTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nl.quintor.studybits.UnitTests" />
-      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.UnitTests.OsirisParserTest" />
-      <option name="METHOD_NAME" value="splitFirstNameWithDash" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProgressParserTest.splitFirstNameWithDash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studybits" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nl.quintor.studybits.UnitTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nl.quintor.studybits.UnitTests" />
-      <option name="MAIN_CLASS_NAME" value="nl.quintor.studybits.UnitTests.ProgressParserTest" />
-      <option name="METHOD_NAME" value="splitFirstNameWithDash" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="nl.quintor.studybits.IntegrationTests" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -499,11 +478,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OsirisParserTest.splitFirstNameWithDash" />
-        <item itemvalue="JUnit.OsirisParserTest.splitFirstNameCorrectly" />
-        <item itemvalue="JUnit.ApiCallServiceTest.notExistingStudent" />
-        <item itemvalue="JUnit.ApiCallServiceTest.studentWithRightIdReturnsJson" />
-        <item itemvalue="JUnit.ProgressParserTest.splitFirstNameWithDash" />
+        <item itemvalue="JUnit.UniversityControllerTest" />
+        <item itemvalue="JUnit.FactoryTest" />
+        <item itemvalue="JUnit.nl.quintor.studybits.IntegrationTests in studybits" />
+        <item itemvalue="JUnit.UniversityControllerTest.testReturnAllUniversitiesWrongUrl" />
+        <item itemvalue="JUnit.UniversityControllerTest.testReturnAllUniversities" />
       </list>
     </recent_temporary>
   </component>
@@ -528,44 +507,44 @@
       <workItem from="1555327490094" duration="2022000" />
       <workItem from="1556614374795" duration="1537000" />
       <workItem from="1557299290710" duration="10731000" />
-      <workItem from="1557824803025" duration="4859000" />
+      <workItem from="1557824803025" duration="10568000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiCallServiceTest_studentWithRightIdReturnsJson - 2019.05.08 at 10h 16m 21s.xml">
-      <configuration name="ApiCallServiceTest.studentWithRightIdReturnsJson" configurationId="JUnit" />
+    <history-entry file="UniversityControllerTest_testReturnAllUniversities - 2019.05.14 at 14h 37m 05s.xml">
+      <configuration name="UniversityControllerTest.testReturnAllUniversities" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiCallServiceTest_studentWithRightIdReturnsJson - 2019.05.08 at 10h 19m 38s.xml">
-      <configuration name="ApiCallServiceTest.studentWithRightIdReturnsJson" configurationId="JUnit" />
+    <history-entry file="UniversityControllerTest - 2019.05.14 at 14h 38m 30s.xml">
+      <configuration name="UniversityControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiCallServiceTest_notExistingStudent - 2019.05.08 at 10h 21m 01s.xml">
-      <configuration name="ApiCallServiceTest.notExistingStudent" configurationId="JUnit" />
+    <history-entry file="UniversityControllerTest - 2019.05.14 at 14h 39m 03s.xml">
+      <configuration name="UniversityControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiCallServiceTest_notExistingStudent - 2019.05.08 at 10h 44m 37s.xml">
-      <configuration name="ApiCallServiceTest.notExistingStudent" configurationId="JUnit" />
+    <history-entry file="UniversityControllerTest - 2019.05.14 at 14h 41m 39s.xml">
+      <configuration name="UniversityControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiCallServiceTest_studentWithRightIdReturnsJson - 2019.05.14 at 11h 07m 46s.xml">
-      <configuration name="ApiCallServiceTest.studentWithRightIdReturnsJson" configurationId="JUnit" />
+    <history-entry file="UniversityControllerTest_testReturnAllUniversities - 2019.05.14 at 14h 44m 25s.xml">
+      <configuration name="UniversityControllerTest.testReturnAllUniversities" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiCallServiceTest_notExistingStudent - 2019.05.14 at 11h 08m 06s.xml">
-      <configuration name="ApiCallServiceTest.notExistingStudent" configurationId="JUnit" />
+    <history-entry file="UniversityControllerTest_testReturnAllUniversities - 2019.05.14 at 14h 47m 09s.xml">
+      <configuration name="UniversityControllerTest.testReturnAllUniversities" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiCallServiceTest_notExistingStudent - 2019.05.14 at 11h 11m 59s.xml">
-      <configuration name="ApiCallServiceTest.notExistingStudent" configurationId="JUnit" />
+    <history-entry file="UniversityControllerTest_testReturnAllUniversities - 2019.05.14 at 14h 47m 39s.xml">
+      <configuration name="UniversityControllerTest.testReturnAllUniversities" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiCallServiceTest_notExistingStudent - 2019.05.14 at 11h 12m 19s.xml">
-      <configuration name="ApiCallServiceTest.notExistingStudent" configurationId="JUnit" />
+    <history-entry file="UniversityControllerTest_testReturnAllUniversities - 2019.05.14 at 14h 49m 33s.xml">
+      <configuration name="UniversityControllerTest.testReturnAllUniversities" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OsirisParserTest_splitFirstNameCorrectly - 2019.05.14 at 11h 28m 44s.xml">
-      <configuration name="OsirisParserTest.splitFirstNameCorrectly" configurationId="JUnit" />
+    <history-entry file="UniversityControllerTest - 2019.05.14 at 14h 49m 50s.xml">
+      <configuration name="UniversityControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OsirisParserTest_splitFirstNameWithDash - 2019.05.14 at 11h 28m 50s.xml">
-      <configuration name="OsirisParserTest.splitFirstNameWithDash" configurationId="JUnit" />
+    <history-entry file="UniversityControllerTest_testReturnAllUniversities - 2019.05.14 at 14h 51m 20s.xml">
+      <configuration name="UniversityControllerTest.testReturnAllUniversities" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118100000" />
+    <option name="totallyTimeSpent" value="123809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,8 +559,8 @@
     <frame x="-8" y="-3" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.15191898" />
+      <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" visible="true" weight="0.15191898" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -590,7 +569,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -618,6 +597,30 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/UniversityController.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/UniversityController.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/UniversityController.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -636,16 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/repository/StudentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
@@ -656,46 +649,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/manager/DataDeserializer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/ProgressServiceFac.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/IService.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/Endpoint.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/StudybitsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/StudybitsApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/FactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -721,16 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/MobileControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -773,16 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/UnitTests/OsirisParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/business/DbCallService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -810,36 +745,6 @@
             <element signature="e#2079#2080#0" expanded="true" />
             <element signature="e#2148#2149#0" expanded="true" />
             <element signature="e#2175#2176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/repository/UniversityRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/Seeder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/University.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -874,16 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="27" column="56" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
@@ -892,12 +787,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/UniversityController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/UnitTests/OsirisParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/StudybitsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/Seeder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/MobileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="27" column="56" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/entity/University.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/FactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/StudybitsApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/repository/StudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/repository/UniversityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/quintor/studybits/controller/UniversityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/MobileControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nl/quintor/studybits/IntegrationTests/UniversityControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="42" column="67" lean-forward="true" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
           </folding>
         </state>
       </provider>
